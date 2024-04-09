@@ -28,5 +28,5 @@ const formatArtist = (artist) => {
   const jsonTables = tabletojson.convert(html, { stripHtmlFromCells: false });
   const artists = jsonTables[0].map(formatArtist);
 
-  writeFileSync('artists.json', JSON.stringify(artists, null, 2));
+  writeFileSync('portland-artists.json', JSON.stringify(artists, null, 2));
 })();
