@@ -1,6 +1,7 @@
 ## Usage
 
 ```bash
+npm i
 npx tsx main.ts
 ```
 
