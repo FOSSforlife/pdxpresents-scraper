@@ -1,6 +1,6 @@
 ## Usage
 
-```
+```bash
 npx tsx main.ts
 ```
 
